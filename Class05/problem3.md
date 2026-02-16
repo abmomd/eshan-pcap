@@ -82,12 +82,4 @@ print(point2.distance_from_xy(2, 0))
 
 ---
 
-## Expected Output
 
-```text
-1.4142135623730951
-1.4142135623730951
-```
-
-Complete the template provided in the editor.
-Run your code and verify whether your output matches the expected result.
