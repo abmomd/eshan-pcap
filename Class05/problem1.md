@@ -20,11 +20,13 @@ Complete the template we've provided. Run your code and check.
 
 ## Expected output
 
-+----------+
-| 23:59:59 |
-| 00:00:00 |
-| 23:59:59 |
-+----------+
+```text
+ 23:59:59 
+ 00:00:00 
+ 23:59:59 
+```
+
+
 
 
 
