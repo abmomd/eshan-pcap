@@ -32,16 +32,7 @@ Expected output:
 Alice Johnson
 ```
 
-### Hint
 
-Use:
-
-```
-strip()
-title()
-split()
-join()
-```
 
 ---
 
@@ -70,15 +61,6 @@ Write a program that:
 Company emails: 2
 ```
 
-### Hint
-
-Use:
-
-```
-split()
-endswith()
-count()
-```
 
 ---
 
@@ -103,17 +85,7 @@ A valid product code must:
 
 Print valid product codes only.
 
-### Hint
 
-Use:
-
-```
-isalnum()
-isalpha()
-isdigit()
-startswith()
-len()
-```
 
 ---
 
@@ -135,15 +107,7 @@ Convert them into standard format:
 9876543210
 ```
 
-### Hint
 
-Use:
-
-```
-replace()
-strip()
-isdigit()
-```
 
 ---
 
@@ -167,15 +131,6 @@ Expected username:
 john_m_doe
 ```
 
-### Hint
-
-Use:
-
-```
-lower()
-split()
-join()
-```
 
 ---
 
@@ -195,15 +150,6 @@ INFO Backup completed
 
 Count how many log entries contain `"ERROR"`.
 
-### Hint
-
-Use:
-
-```
-startswith()
-count()
-split()
-```
 
 ---
 
@@ -228,15 +174,6 @@ John
 Mike
 ```
 
-### Hint
-
-Use:
-
-```
-split()
-index()
-```
-
 ---
 
 # 🔐 8. Password Strength Checker (Security System)
@@ -257,15 +194,6 @@ Password123
 
 Check whether the password is valid.
 
-### Hint
-
-Use:
-
-```
-isupper()
-islower()
-isdigit()
-```
 
 ---
 
@@ -285,15 +213,6 @@ Convert them into:
 KA01AB1234
 ```
 
-### Hint
-
-Use:
-
-```
-upper()
-replace()
-strip()
-```
 
 ---
 
@@ -313,14 +232,6 @@ Expected output:
 HeLlO wOrlD
 ```
 
-### Hint
-
-Use:
-
-```
-swapcase()
-```
-
 ---
 
 # ⭐ Bonus Challenge – Text Analyzer
@@ -337,15 +248,7 @@ Write a program that prints:
 - Number of times `"Python"` appears
 - The word with the highest Unicode value
 
-### Hint
 
-Use:
-
-```
-split()
-count()
-max()
-```
 
 ---
 
