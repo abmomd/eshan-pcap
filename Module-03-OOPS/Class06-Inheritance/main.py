@@ -22,7 +22,7 @@ print(person1) # Represents what the object is about.
 
 
 ## issubclass() --> Checks the Relationship between two classes.
-# issubclass(Class A, ClassB) --> True if Class A inherits from Class B
+# issubclass(Class - 17 A, ClassB) --> True if Class - 17 A inherits from Class - 17 B
 
 print(issubclass(Student, Person))
 
@@ -50,11 +50,11 @@ class Employee:
 
 class Manager(Employee):
     def __str__(self):
-        return "Manager -> Parent Class is: " + super().__str__()
+        return "Manager -> Parent Class - 17 is: " + super().__str__()
 
 class FoodManager(Manager):
     def __str__(self):
-        return "Food Manager -> Parent Class is: " + super().__str__()
+        return "Food Manager -> Parent Class - 17 is: " + super().__str__()
 
 m = Manager()
 print(m)
@@ -68,7 +68,7 @@ print(fM)
 
 
 class Employee:
-    noOfEmployees=0 # Class Variable will be shared among all instances.
+    noOfEmployees=0 # Class - 17 Variable will be shared among all instances.
     def __init__(self,name):
         self.name = name # Instance Variable.
         Employee.noOfEmployees+=1
@@ -86,7 +86,7 @@ print(d1.greet())
 print(d.noOfEmployees)
 
 
-# Class Variables are shared among all instances.
+# Class - 17 Variables are shared among all instances.
 # Instance Variable belongs to each object.
 
 

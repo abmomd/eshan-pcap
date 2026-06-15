@@ -66,7 +66,7 @@ account1.balance = 3000
 
 
 
-# Counter Class.
+# Counter Class - 17.
 
 class Counter:
 
