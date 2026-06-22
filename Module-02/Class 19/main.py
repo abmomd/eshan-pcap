@@ -7,8 +7,6 @@
 
 import os
 
-from fontTools.feaLib.ast import ScriptStatement
-from tensorflow.python.distribute.multi_process_runner import Resources
 
 info = os.uname()
 print(info)
@@ -60,6 +58,4 @@ print(os.getcwd())
 # os.rmdir("hello")
 # os.rmdir("My_new_folder")
 
-os.system("git add .")
-os.system("git commit -m 'Class 19'")
-os.system("git push origin main")
+os.system("python3 gitCommits.py")
