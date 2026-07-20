@@ -1,124 +1,129 @@
-# 📦 Solution: Smart Store Utility Toolkit
+# 📦 Project: Smart Store Utility Toolkit
 
-```python
-# Import entire billing module
-import billing
+## 📘 Story
 
-# Import specific function
-from discount import apply_discount
+You have been hired by **QuickMart**, a retail company that is developing a utility toolkit for its billing software.
 
-# Import module using alias
-import inventory as inv
+Instead of writing everything in one file, the company has already created several Python modules.
 
-# Import function using alias
-from reports import daily_report as report
+Your job is to write the **main program** that imports these modules correctly and uses their functions.
 
-print("=== QuickMart Billing System ===\n")
+---
 
-# Check stock
-inv.check_stock()
+## 📂 Project Structure
 
-# Apply discount
-apply_discount()
+```text
+QuickMart/
 
-# Generate bill
-billing.generate_bill()
-
-# Calculate tax
-billing.calculate_tax()
-
-# Update inventory
-inv.update_stock()
-
-# Generate report
-report()
+├── billing.py
+├── discount.py
+├── inventory.py
+├── reports.py
+└── main.py
 ```
 
 ---
 
-## Output (Example)
+## Module Details
+
+### billing.py
+
+Contains:
+
+- `generate_bill()`
+- `calculate_tax()`
+
+---
+
+### discount.py
+
+Contains:
+
+- `apply_discount()`
+
+---
+
+### inventory.py
+
+Contains:
+
+- `check_stock()`
+- `update_stock()`
+
+---
+
+### reports.py
+
+Contains:
+
+- `daily_report()`
+
+---
+
+## 🎯 Your Tasks
+
+### Part 1
+
+Import the **entire** `billing` module and use its functions.
+
+---
+
+### Part 2
+
+Import only the `apply_discount()` function from the `discount` module.
+
+---
+
+### Part 3
+
+Import the `inventory` module using the alias `inv`.
+
+---
+
+### Part 4
+
+Import the `daily_report()` function from the `reports` module using the alias `report`.
+
+---
+
+### Part 5
+
+Call all imported functions in an appropriate order to simulate a customer purchase.
+
+---
+
+## Expected Flow
 
 ```text
-=== QuickMart Billing System ===
-
 Checking Stock...
 
-Discount Applied...
+↓
+
+Applying Discount...
+
+↓
 
 Generating Bill...
 
+↓
+
 Calculating Tax...
 
+↓
+
 Updating Inventory...
+
+↓
 
 Generating Daily Report...
 ```
 
 ---
 
-# Concepts Used
+## Concepts Covered
 
-## Import Entire Module
-
-```python
-import billing
-```
-
-Functions are accessed using:
-
-```python
-billing.generate_bill()
-billing.calculate_tax()
-```
-
----
-
-## Import Specific Function
-
-```python
-from discount import apply_discount
-```
-
-Used directly as:
-
-```python
-apply_discount()
-```
-
----
-
-## Module Alias
-
-```python
-import inventory as inv
-```
-
-Used as:
-
-```python
-inv.check_stock()
-```
-
----
-
-## Function Alias
-
-```python
-from reports import daily_report as report
-```
-
-Used as:
-
-```python
-report()
-```
-
----
-
-# Skills Practiced
-
-- Organizing code into multiple modules
-- Using dot notation
-- Importing specific functions
-- Creating aliases with `as`
-- Combining multiple modules in one application
+- import module
+- from module import function
+- import module as alias
+- from module import function as alias
+- Dot notation
